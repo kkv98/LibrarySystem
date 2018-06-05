@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="@color/back"
+    tools:context="com.kkv.library.librarysystem.activity.SearchBook">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/bookname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:hint="Enter Book Name" />
+
+            <Button
+                android:id="@+id/bbsearch"
+                android:layout_width="match_parent"
+                android:layout_weight="15"
+                android:textColor="#ffff"
+                android:theme="@style/MyButton"
+                android:layout_height="wrap_content"
+                android:text="Search" />
+        </LinearLayout>
+
+        <ListView
+
+            android:padding="10dp"
+            android:id="@+id/booklist"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"></ListView>
+    </LinearLayout>
+
+</LinearLayout>

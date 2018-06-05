@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "235145451483",
+    "firebase_url": "https://library-app-dbe6d.firebaseio.com",
+    "project_id": "library-app-dbe6d",
+    "storage_bucket": "library-app-dbe6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235145451483:android:4ff43669dd86a508",
+        "android_client_info": {
+          "package_name": "com.bookbank.svce.bookbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235145451483-ag4slpjfustm2skst4k1ghtl0c4e4g77.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bookbank.svce.bookbank",
+            "certificate_hash": "74284e134739efeda904d2441000c64338c664ed"
+          }
+        },
+        {
+          "client_id": "235145451483-s37flks6s6eoiomp3b7sq9f7p38hvahl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1DcfQl6UdYmHFLVjNE9_pwHz-UF2xGV4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235145451483-s37flks6s6eoiomp3b7sq9f7p38hvahl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235145451483:android:cdd3123edb240276",
+        "android_client_info": {
+          "package_name": "com.kkv.library.librarysystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235145451483-s37flks6s6eoiomp3b7sq9f7p38hvahl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1DcfQl6UdYmHFLVjNE9_pwHz-UF2xGV4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:src="@drawable/ic_book_white_24dp"/>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_weight="2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+    android:id="@+id/booklistname"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="14dp"
+    android:text="BookName"
+    />
+<TextView
+    android:id="@+id/autherlistname"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    android:gravity="end"
+    android:textSize="14dp"
+    android:text="By AutherName"/>
+</LinearLayout>
+</LinearLayout>

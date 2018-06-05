@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back"
+    tools:context="com.kkv.library.librarysystem.Fragments.Fine">
+    <TextView
+        android:id="@+id/header_cover_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="FINE"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:gravity="center"
+        android:background="@drawable/textviewbo" />
+    <TextView
+        android:id="@+id/fine"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="FINE"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:gravity="center"
+        android:background="#dedede" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="0"
+        android:id="@+id/butfine"
+        android:textColor="#ffff"
+        android:theme="@style/MyButton"
+        android:layout_height="wrap_content"
+        android:text="PAY FINE OR RENEWAL"/>
+</LinearLayout>

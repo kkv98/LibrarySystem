@@ -1,0 +1,30 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context="com.kkv.library.librarysystem.Fragments.History">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Borrowed Books"
+                android:background="@drawable/textviewbo"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_weight="10"/>
+
+        <ListView
+            android:padding="10dp"
+            android:id="@+id/uubooklist"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"></ListView>
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

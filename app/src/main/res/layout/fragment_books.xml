@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:background="@color/back"
+    tools:context="com.kkv.library.librarysystem.Fragments.Books">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchbook"
+        android:text="Search Books"
+        android:theme="@style/MyButton"
+        android:textColor="@android:color/white"/>
+
+    <ListView
+        android:id="@+id/lvb"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_weight="1"></ListView>
+
+</LinearLayout>
+
+</LinearLayout>

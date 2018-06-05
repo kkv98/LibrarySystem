@@ -1,0 +1,47 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/back"
+    tools:context="com.kkv.library.librarysystem.Fragments.About">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/header_cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SVCE LIBRARY"
+
+            android:textStyle="bold|italic"
+            android:textSize="20dp"
+            android:scaleType="centerCrop"
+            android:gravity="center"
+            android:background="@drawable/textviewbo" />
+        <ImageButton
+            android:id="@+id/user_profile_photo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/header_cover_image"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/homepagelogo"
+            android:elevation="5dp"
+            android:padding="20dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:id="@+id/dname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:text="Dr. A.C. Muthiah Central Library is a preeminent library, containing an expansive digital and physical collection that offers a diverse range of services and resources that includes books and journals covering all major fields of Science and Engineering. The fully air-conditioned, Wi-Fi enabled three-storied building which is of 4,900.75 Sq.mt. (52,732.07 Sq.ft.) is a vital resource of learning, engagement and creativity not only in engineering but also beyond the domains of engineering. The Library has total number of 1,00,379 books (25,630 titles), 1010 journals (Online and Print), 9636 back volumes of journals and 2200 CDs. Besides the Central Library, each department has a library that has a repository of materials related to the fields of specialization of the Department.Note:After Renewal time all user need to pay fine of rs:2 per book per day"
+            android:layout_margin="10dp"
+            android:background="#f7f7f7"
+            android:textStyle="bold|italic"
+            />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="@color/back"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SVCE Library"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/textviewbo"
+        android:id="@+id/tv1"
+        android:textStyle="bold"/>
+    <ImageView
+        android:src="@drawable/homepagelogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:id="@+id/iv1"/>
+    <TextView
+        android:layout_below="@+id/iv1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:padding="20dp"
+        android:text="WELCOME USER!"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:padding="10dp"
+        android:theme="@style/MyButton"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        />
+    <ProgressBar
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pb1"
+        android:theme="@style/CircularProgress"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>
